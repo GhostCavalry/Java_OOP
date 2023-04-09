@@ -27,10 +27,14 @@ String fortab = "\t";
 		
 		String dosyaadi = "Genel.txt";
 
+		try {
 		BufferedWriter writer = new BufferedWriter(new FileWriter(dosyaadi,false));
 		writer.write("#" + fortab + "Genel" + fortab + "Üyeler");
 		writer.newLine();
 		writer.close();
+		} catch(Exception e){
+			e.printStackTrace();
+		}
 		
 	}
 	
