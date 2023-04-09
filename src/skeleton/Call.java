@@ -95,6 +95,9 @@ public class Call {
 		else {
 			Call degisiklik = new Call();
 			degisiklik.baskasayi();
+			
+			Call seceneka = new Call();
+			seceneka.ugurlama();
 		}
 	}
 }
