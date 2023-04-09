@@ -26,6 +26,8 @@ public class AddPersonnel {
 				System.out.println("Mail: ");
 				Scanner scan2 = new Scanner(System.in);
 				mail = scan2.nextLine();
+				writer.write("#" + fortab + "Elit" + fortab + "Üyeler");
+				writer.newLine();
 				writer.write(ad + fortab + soyad + fortab + mail); // Bilgilerin yazılması ve hangi sırayla yazılacağı gösterilir
 				writer.newLine(); // Bilgiler yazıldıktan sonra yazılan satırın atlanması (Sonraki işlemde bunu görürüz)
 				writer.close(); // Dosyanın kaydolup kapanması
