@@ -6,10 +6,8 @@ import java.io.IOException;
 import java.util.Scanner;
 
 
-public class AddPersonnelG { // AddPersonnel classı ile aynı yorum satırlarını içerir
+public class AddPersonnelG extends AddPersonnel { // AddPersonnel classı ile aynı yorum satırlarını içerir
 	
-	String ad,soyad,mail; 
-	String fortab = "\t";
 	String dosyaadi = "Genel.txt";
 
 	public void Genel() throws IOException {
