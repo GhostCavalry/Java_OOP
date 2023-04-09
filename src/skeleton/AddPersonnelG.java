@@ -26,6 +26,8 @@ public class AddPersonnelG { // AddPersonnel classı ile aynı yorum satırları
 				System.out.println("Mail: ");
 				Scanner scan5 = new Scanner(System.in);
 				mail = scan5.nextLine();
+				writer.write("#" + fortab + "Genel" + fortab + "Üyeler");
+				writer.newLine();
 				writer.write(ad + fortab + soyad + fortab + mail); 
 				writer.newLine();
 				writer.close();
